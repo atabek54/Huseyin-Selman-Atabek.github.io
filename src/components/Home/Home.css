@@ -1,0 +1,62 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Ekranın yüksekliğini tamamen kaplamasını sağlar */
+    overflow: hidden; /* Kaydırmayı engeller */
+  }
+  
+  .project {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100vh; /* Her bir projenin ekran yüksekliğini kaplamasını sağlar */
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .project:hover {
+    transform: scale(1.02);
+  }
+  
+  .project-info {
+    flex: 1;
+    padding-right: 20px;
+  }
+  
+  .project-info h2 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .project-info p {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .project-image img {
+    max-width: 400px; /* Resim genişliği için uygun bir değer belirleyin */
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  @media (max-width: 768px) {
+    .project {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .project-info {
+      padding-right: 0;
+      padding-bottom: 20px;
+    }
+  
+    .project-image img {
+      max-width: 100%;
+    }
+  }
+  

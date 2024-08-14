@@ -1,38 +1,97 @@
-.App {
-  text-align: center;
-}
+/* App.css */
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.home-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  height: auto; /* Ekranın yüksekliğini tamamen kaplamasını sağlar */
+  overflow: hidden; /* Kaydırmayı engeller */
+}
+
+.project {
+  display: flex;
+  align-items: center; /* Dikeyde ortalar */
+  justify-content: space-around; /* Yatayda ortalar */
+  width: 100%;
+  height: 100vh; /* Her bir projenin ekran yüksekliğini kaplamasını sağlar */
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  opacity: 0;
+  transform: translateY(100px);
+}
+
+.project.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.project:hover {
+  transform: scale(1.02);
+}
+
+.project-info {
+  display: flex;
+  flex-direction: column; /* Başlık ve açıklamayı dikeyde hizalar */
+  align-items: center; /* Yatayda ortalar */
+  text-align: center; /* Başlık ve açıklamayı ortalar */
+  margin-right: 20px;
+}
+
+.project-info h2 {
+  margin: 0;
+  font-size: 7rem;
+  color: #333;
+}
+
+.project-info p {
+  font-size: 1.4rem;
+  color: #666;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.project-image {
+  display: flex;
+  align-items: center; /* Dikeyde ortalar */
+}
+
+.project-image img {
+  max-width: 36rem; /* Resim genişliği için uygun bir değer belirleyin */
+  height: auto;
+  border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+  .project {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .project-info {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .project-image img {
+    max-width: 100%;
+  }
+}
+
+.details-button {
+  background-color: #01cd7c;
+  width: 15rem;
+  height: 3.2rem;
+  text-align: center;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  text-decoration: none;
   color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  border-radius: 0.4rem;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.details-button:hover {
+  background-color: #01bfcd;
 }
