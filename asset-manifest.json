@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Huseyin-Selman-Atabek.github.io/static/css/main.3adc9d24.css",
+    "main.css": "/Huseyin-Selman-Atabek.github.io/static/css/main.dfbed9cd.css",
     "main.js": "/Huseyin-Selman-Atabek.github.io/static/js/main.c2326401.js",
     "index.html": "/Huseyin-Selman-Atabek.github.io/index.html",
-    "main.3adc9d24.css.map": "/Huseyin-Selman-Atabek.github.io/static/css/main.3adc9d24.css.map",
+    "main.dfbed9cd.css.map": "/Huseyin-Selman-Atabek.github.io/static/css/main.dfbed9cd.css.map",
     "main.c2326401.js.map": "/Huseyin-Selman-Atabek.github.io/static/js/main.c2326401.js.map"
   },
   "entrypoints": [
-    "static/css/main.3adc9d24.css",
+    "static/css/main.dfbed9cd.css",
     "static/js/main.c2326401.js"
   ]
 }
