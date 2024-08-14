@@ -1,15 +1,13 @@
 {
   "files": {
-    "main.css": "/Huseyin-Selman-Atabek.github.io/static/css/main.f855e6bc.css",
-    "main.js": "/Huseyin-Selman-Atabek.github.io/static/js/main.89f7fe2e.js",
-    "static/js/453.acca0757.chunk.js": "/Huseyin-Selman-Atabek.github.io/static/js/453.acca0757.chunk.js",
+    "main.css": "/Huseyin-Selman-Atabek.github.io/static/css/main.3adc9d24.css",
+    "main.js": "/Huseyin-Selman-Atabek.github.io/static/js/main.c2326401.js",
     "index.html": "/Huseyin-Selman-Atabek.github.io/index.html",
-    "main.f855e6bc.css.map": "/Huseyin-Selman-Atabek.github.io/static/css/main.f855e6bc.css.map",
-    "main.89f7fe2e.js.map": "/Huseyin-Selman-Atabek.github.io/static/js/main.89f7fe2e.js.map",
-    "453.acca0757.chunk.js.map": "/Huseyin-Selman-Atabek.github.io/static/js/453.acca0757.chunk.js.map"
+    "main.3adc9d24.css.map": "/Huseyin-Selman-Atabek.github.io/static/css/main.3adc9d24.css.map",
+    "main.c2326401.js.map": "/Huseyin-Selman-Atabek.github.io/static/js/main.c2326401.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.89f7fe2e.js"
+    "static/css/main.3adc9d24.css",
+    "static/js/main.c2326401.js"
   ]
 }
